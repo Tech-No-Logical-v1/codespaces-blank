@@ -1,0 +1,7 @@
+import docx
+
+doc = docx.Document()
+
+paragraph=doc.add_paragraph("Put what you want it to say here")
+
+doc.save("test.docx")
